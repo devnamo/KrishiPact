@@ -1,0 +1,49 @@
+/* ContractManager.css */
+
+.contract-manager {
+    padding: 2rem;
+    background-color: #f9fbe7; /* Light yellow-green */
+    min-height: 100vh;
+}
+
+.contract-manager h2 {
+    font-size: 2.5rem;
+    color: #3e8e41; /* Green */
+    margin-bottom: 2rem;
+}
+
+.contract-manager form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contract-manager h3 {
+    font-size: 1.8rem;
+    color: #2e7d32; /* Darker green */
+    margin-bottom: 1rem;
+}
+
+.contract-manager input {
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    border: 1px solid #c8e6c9; /* Light green */
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.contract-manager button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #a1887f; /* Brownish tone */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1.5rem;
+}
+
+.contract-manager button:hover {
+    background-color: #8d6e63; /* Darker brown */
+}

@@ -1,0 +1,60 @@
+/* FarmerDashboard.css */
+
+.farmer-dashboard {
+    padding: 2rem;
+    background-color: #e8f5e9; /* Very light green */
+    min-height: 100vh;
+}
+
+.farmer-dashboard h2 {
+    font-size: 2.5rem;
+    color: #3e8e41; /* Green */
+    margin-bottom: 2rem;
+}
+
+.buyer-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.buyer-profile {
+    background-color: #fff;
+    padding: 1.5rem;
+    border: 1px solid #c8e6c9; /* Light green border */
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buyer-profile h3 {
+    font-size: 1.8rem;
+    color: #2e7d32; /* Darker green */
+}
+
+.buyer-profile p {
+    color: #6d4c41; /* Brownish tone */
+    margin-bottom: 1rem;
+}
+
+.dashboard-buttons {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.dashboard-buttons button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #a1887f; /* Brownish tone */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-buttons button:hover {
+    background-color: #8d6e63; /* Darker brown */
+}
